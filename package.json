@@ -1,6 +1,6 @@
 {
   "name": "quill-to-pdf",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Create a PDF from a QuillJS delta",
   "main": "./dist/main.js",
   "types": "./dist/src/index.d.ts",
@@ -11,19 +11,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andrewraygilbert/quill-to-pdf.git"
+    "url": "git+https://github.com/lsorba/quill-to-pdf.git"
   },
   "keywords": [
     "quill",
     "pdf",
     "delta"
   ],
-  "author": "Andrew Gilbert",
+  "author": "Andrew Gilbert, Fork Laurent Sorba",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/andrewraygilbert/quill-to-pdf/issues"
+    "url": "https://github.com/lsorba/quill-to-pdf/issues"
   },
-  "homepage": "https://github.com/andrewraygilbert/quill-to-pdf#readme",
+  "homepage": "https://github.com/lsorba/quill-to-pdf#readme",
   "devDependencies": {
     "@types/file-saver": "^2.0.1",
     "@types/jest": "^26.0.20",
