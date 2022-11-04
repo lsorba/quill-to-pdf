@@ -137,6 +137,7 @@ class PdfBuilder {
     // builds paragraphs with header formatting
     buildHeader(textRuns: Runs, level: number, doc: any): void {
         if (level === 1) {
+            doc.addPage();
             this.buildRuns(textRuns, {
                 font: this.style.header_1.font,
                 fontSize: this.style.header_1.fontSize,
